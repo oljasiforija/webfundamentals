@@ -1,0 +1,41 @@
+.search{
+    border: 2px solid cyan;
+    width: 200px;
+    height: 30px;
+    border-radius: 35px;
+    background-color: rgba(0, 255, 255, 0.089);
+    text-align: center;
+    font-size: larger;
+    color: cyan;
+    font-style: bold;
+    font-family: sans-serif;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.plus{
+    border: 2px solid cyan;
+    height:50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: cyan;
+    margin-top: 10px;
+    margin-left: 40px;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+.acc{
+    border: 3px solid black;
+    width: 300px;
+    height: 40px;
+    background-color: rgb(52, 141, 243);
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    margin-top: 10px;
+    margin-left: 40px;
+    vertical-align: middle;
+    align-items: center;
+
+
+}
