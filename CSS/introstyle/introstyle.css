@@ -1,0 +1,19 @@
+h1{
+    background-color: black;
+    color: white;
+}
+.cloud{
+    color: cyan;
+}
+h2{
+    background-color: rgb(71, 15, 97);
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+h3{
+    background-color: cyan;
+    color: rgb(71, 15, 97);
+    text-align: end;
+    text-decoration: underline ;
+}
