@@ -1,0 +1,33 @@
+.box{
+    border: 2px solid black;
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    margin: 20px;
+}
+.flagjapan{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border-radius: 100px;
+    margin: 75px auto;
+}
+.box2{
+    border: 2px solid black;
+    height: 300px;
+    width: 500px;
+    margin: 20px;
+}
+.blue{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+.red{
+    width: 500px;
+    height: 150px;
+    background-color: red;
+}
