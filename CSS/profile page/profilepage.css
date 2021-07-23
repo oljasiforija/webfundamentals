@@ -1,39 +1,214 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
-.nav{
+nav{
     width: 100%;
     height: 50px;
-    background-color: rgb(90, 88, 88);
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    align-items: center;
+}
+#leftNav{
+    height: 100%;
+    width: 46%;
+    display: flex;
+    justify-content: space-around;
+}
+#rightNav{
+    width: 47%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navProfile{
+    width: 10%;
+    height: 100%;
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.navButtons{
+    width: 73%;
+    height: 100%;
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-h1, ul{
-    margin: 20px;
-}
-ul{
-    float: right;
-    list-style-type: none;
-    font-size: large;
-    display: flex;
-    justify-content: space-evenly;
-}
-li{
-    padding: 10px;
-}
-li>a{
-    color: white;
-    text-decoration: none;
-}
 .active{
     font-weight: bold;
 }
-button{
+.btn{
+    height: 30px;
+    width: 80px;
     background-color:lightblue;
     font-size: large;
     box-shadow: 2px 2px 2px black;
+}
+#container{
+    width: 100%;
+    margin-top: 60px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+#leftSide{
+    width: 40%;
+}
+#usercard{
+    width: 100%;
+    height: 350px;
+    background-color: whitesmoke;
+    border: 2px solid gray;
+}
+.TopHalf{
+    width: 100%;
+    height: 20%;
+    background-color: lightblue;
+}
+.BottomHalf{
+    margin: 40px;
+}
+.imgusercard{
+    width: 10px;
+    margin-right: 10px;
+}
+.imgusercard2{
+    width: 20px;
+    margin-right: 10px;
+}
+#userphoto{
+    width: 60px;
+    height: 60px;
+    border: 2px solid white;
+    border-radius: 100%;
+    position: relative;
+    left: 40px;
+    top: 40px;
+}
+.userphotoid{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    position: relative;
+}
+p, h3{
+    padding: 2px;
+}
+.editprofile{
+    padding-top: 30px;
+    text-decoration: underline;
+    color: blue;
+}
+#educationcard{
+    width: 100%;
+    border: 2px solid gray;
+    margin-top: 25px;
+}
+.educationcardtop{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid black;
+    background-color:black;
+    color: white;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+}
+p{
+    margin-left: 20px;
+    font-size: larger;
+}
+.months{
+    font-size: smaller;
+    color: gray;
+}
+.educationcardbottom{
+    width: 100%;
+    padding: 15px;
+}
+#rightSide{
+    width: 40%;
+    
+}
+#topBox{
+    height: 175px;
+    width: 100%;
+    border: 2px solid gray;
+    margin-bottom: 25px;
+
+}
+.navTopBox{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: black;
+    color: white;
+    font-size: x-large; 
+}
+.navTopBox::before{
+    content: ' \2781';
+    margin: 0px 10px 0px 20px;
+}
+.listTopBox{
+    margin-top: 20px;
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+}
+p > .invitation{
+    font-size: x-large;
+}
+#bottomBox{
+    width: 100%;
+    height: 325px;
+    border: 2px solid gray;
+}
+.navBotBox{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: x-large;
+}
+.conbtn{
+    height: 30px;
+    width: 80px;
+    border-radius: 40%;
+    font-size: large;
+}
+.listBotBox{
+    width: 100%;
+    height: 215px;
+    border-bottom: 1px solid gray;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.botBotBox{
+    display: flex;
+    align-items: center;
+    color: blue;
+    text-decoration: underline;
+    margin: 10px 10px 0px 20px;
+}
+.acceptbtn{
+    width: 30px;
+}
+.declinebtn{
+    width: 20px;
 }
