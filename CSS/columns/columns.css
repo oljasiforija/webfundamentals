@@ -1,0 +1,33 @@
+.row{
+    display: flex;
+}
+.col{
+    flex: 1;
+    height: 50px;
+    margin: 2px;
+    padding: 4px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    background-color: lightcoral;
+}
+.col-2{
+    flex: 2;
+    height: 50px;
+    margin: 2px;
+    padding: 4px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    background-color: lightcoral;
+}
+.col-3{
+    flex: 3;
+    height: 50px;
+    margin: 2px;
+    padding: 4px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    background-color: lightcoral;
+}
